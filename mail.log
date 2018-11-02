@@ -1,0 +1,9 @@
+Oct 30 23:08:28 rich-VirtualBox postfix/sendmail[23241]: fatal: open /etc/postfix/main.cf: No such file or directory
+Oct 30 23:10:06 rich-VirtualBox postfix/sendmail[23441]: fatal: open /etc/postfix/main.cf: No such file or directory
+Oct 31 19:23:39 rich-VirtualBox postfix/sendmail[9853]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:38:23 rich-VirtualBox postfix/sendmail[1105]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:46:23 rich-VirtualBox postfix/sendmail[1320]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:48:53 rich-VirtualBox postfix/sendmail[1479]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:51:23 rich-VirtualBox postfix/sendmail[1649]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 15:50:24 rich-VirtualBox postfix/sendmail[2830]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 20:40:06 rich-VirtualBox postfix/sendmail[7639]: fatal: open /etc/postfix/main.cf: No such file or directory

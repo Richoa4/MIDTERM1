@@ -1,0 +1,56 @@
+[1540954968] Nagios 3.5.1 starting... (PID=22859)
+[1540954968] Local time is Tue Oct 30 23:02:48 EDT 2018
+[1540954968] LOG VERSION: 2.0
+[1540954968] Finished daemonizing... (New PID=22860)
+[1540955128] SERVICE ALERT: localhost;Disk Space;CRITICAL;SOFT;1;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1540955188] SERVICE ALERT: localhost;Disk Space;CRITICAL;SOFT;2;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1540955228] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 22: Connection refused
+[1540955248] SERVICE ALERT: localhost;Disk Space;CRITICAL;SOFT;3;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1540955288] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 22: Connection refused
+[1540955308] SERVICE ALERT: localhost;Disk Space;CRITICAL;HARD;4;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1540955308] SERVICE NOTIFICATION: root;localhost;Disk Space;CRITICAL;notify-service-by-email;DISK CRITICAL - /run/user/1000/gvfs is not accessible: Permission denied
+[1540955348] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1540955376] Caught SIGTERM, shutting down...
+[1540955376] Successfully shutdown... (PID=22860)
+[1540955376] Nagios 3.5.1 starting... (PID=23375)
+[1540955376] Local time is Tue Oct 30 23:09:36 EDT 2018
+[1540955376] LOG VERSION: 2.0
+[1540955376] Finished daemonizing... (New PID=23376)
+[1540955406] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1540955406] SERVICE NOTIFICATION: root;localhost;SSH;CRITICAL;notify-service-by-email;connect to address 127.0.0.1 and port 22: Connection refused
+[1541011259] Warning: A system time change of 0d 15h 16m 16s (forwards in time) has been detected.  Compensating...
+[1541013952] Auto-save of retention data completed successfully.
+[1541021467] Warning: A system time change of 0d 1h 42m 22s (forwards in time) has been detected.  Compensating...
+[1541023694] Auto-save of retention data completed successfully.
+[1541026328] Nagios 3.5.1 starting... (PID=915)
+[1541026328] Local time is Wed Oct 31 18:52:08 EDT 2018
+[1541026328] LOG VERSION: 2.0
+[1541026329] Finished daemonizing... (New PID=943)
+[1541028039] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 404 Not Found - 453 bytes in 0.001 second response time
+[1541028099] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 404 Not Found - 453 bytes in 0.001 second response time
+[1541028159] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 404 Not Found - 453 bytes in 0.001 second response time
+[1541028219] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 404 Not Found - 453 bytes in 0.000 second response time
+[1541028219] SERVICE NOTIFICATION: root;localhost;HTTP;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 404 Not Found - 453 bytes in 0.000 second response time
+[1541029929] Auto-save of retention data completed successfully.
+[1541033529] Auto-save of retention data completed successfully.
+[1541037129] Auto-save of retention data completed successfully.
+[1541050506] Warning: A system time change of 0d 3h 18m 8s (forwards in time) has been detected.  Compensating...
+[1541052617] Auto-save of retention data completed successfully.
+[1541056217] Auto-save of retention data completed successfully.
+[1541082375] Warning: A system time change of 0d 7h 6m 42s (forwards in time) has been detected.  Compensating...
+[1541083103] SERVICE ALERT: localhost;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 302 Found - 546 bytes in 0.002 second response time
+[1541083103] SERVICE NOTIFICATION: root;localhost;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 302 Found - 546 bytes in 0.002 second response time
+[1541083403] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;1;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 2.484 second response time
+[1541083463] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;2;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.154 second response time
+[1541083523] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;3;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.095 second response time
+[1541083583] SERVICE ALERT: localhost;HTTP;CRITICAL;HARD;4;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.061 second response time
+[1541083583] SERVICE NOTIFICATION: root;localhost;HTTP;CRITICAL;notify-service-by-email;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.061 second response time
+[1541083883] SERVICE ALERT: localhost;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 8998 bytes in 0.421 second response time
+[1541083883] SERVICE NOTIFICATION: root;localhost;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 8998 bytes in 0.421 second response time
+[1541085419] Auto-save of retention data completed successfully.
+[1541101771] Warning: A system time change of 0d 3h 57m 52s (forwards in time) has been detected.  Compensating...
+[1541103294] Warning: A system time change of 0d 0h 24m 19s (forwards in time) has been detected.  Compensating...
+[1541104750] Auto-save of retention data completed successfully.
+[1541109086] Warning: A system time change of 0d 1h 0m 46s (forwards in time) has been detected.  Compensating...
+[1541118046] Warning: A system time change of 0d 2h 21m 19s (forwards in time) has been detected.  Compensating...
+[1541120475] Auto-save of retention data completed successfully.

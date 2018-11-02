@@ -1,0 +1,27 @@
+[Thu Nov 01 01:40:07.523946 2018] [mpm_prefork:notice] [pid 28096] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 01:40:07.523970 2018] [core:notice] [pid 28096] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 01:57:21.988250 2018] [mpm_prefork:notice] [pid 28096] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 01:57:34.169463 2018] [mpm_prefork:notice] [pid 31017] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 01:57:34.169518 2018] [core:notice] [pid 31017] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 02:04:26.688440 2018] [mpm_prefork:notice] [pid 31017] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 02:04:26.784578 2018] [mpm_prefork:notice] [pid 31101] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 02:04:26.784637 2018] [core:notice] [pid 31101] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 02:10:19.636315 2018] [mpm_prefork:notice] [pid 31101] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 02:10:19.882868 2018] [mpm_prefork:notice] [pid 32017] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 02:10:19.882928 2018] [core:notice] [pid 32017] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 10:37:36.230505 2018] [mpm_prefork:notice] [pid 32017] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 10:37:36.346935 2018] [mpm_prefork:notice] [pid 1082] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 10:37:36.346993 2018] [core:notice] [pid 1082] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 10:43:21.116927 2018] [php7:notice] [pid 1083] [client 127.0.0.1:60916] Uncaught PHP Exception Symfony\\Component\\Routing\\Exception\\RouteNotFoundException: "Route "search.view_node_search" does not exist." at /var/www/html/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+[Thu Nov 01 10:44:19.268718 2018] [php7:notice] [pid 1094] [client 127.0.0.1:60922] Uncaught PHP Exception Symfony\\Component\\Routing\\Exception\\RouteNotFoundException: "Route "search.view_node_search" does not exist." at /var/www/html/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+[Thu Nov 01 10:45:19.125813 2018] [php7:notice] [pid 1087] [client 127.0.0.1:60924] Uncaught PHP Exception Symfony\\Component\\Routing\\Exception\\RouteNotFoundException: "Route "search.view_node_search" does not exist." at /var/www/html/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+[Thu Nov 01 10:46:19.227454 2018] [php7:notice] [pid 1085] [client 127.0.0.1:60928] Uncaught PHP Exception Symfony\\Component\\Routing\\Exception\\RouteNotFoundException: "Route "search.view_node_search" does not exist." at /var/www/html/core/lib/Drupal/Core/Routing/RouteProvider.php line 190
+sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+[Thu Nov 01 11:32:28.912409 2018] [mpm_prefork:notice] [pid 1082] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 11:33:08.030653 2018] [mpm_prefork:notice] [pid 2384] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 11:33:08.030713 2018] [core:notice] [pid 2384] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Nov 01 11:37:59.606968 2018] [mpm_prefork:notice] [pid 2384] AH00169: caught SIGTERM, shutting down
+[Thu Nov 01 11:38:50.514699 2018] [mpm_prefork:notice] [pid 2466] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Thu Nov 01 11:38:50.514763 2018] [core:notice] [pid 2466] AH00094: Command line: '/usr/sbin/apache2'
+sendmail: fatal: open /etc/postfix/main.cf: No such file or directory
+sendmail: fatal: open /etc/postfix/main.cf: No such file or directory

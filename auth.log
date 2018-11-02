@@ -1,0 +1,789 @@
+Oct 30 22:28:49 rich-VirtualBox systemd-logind[436]: New seat seat0.
+Oct 30 22:28:49 rich-VirtualBox systemd-logind[436]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 30 22:28:49 rich-VirtualBox systemd-logind[436]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 30 22:28:49 rich-VirtualBox systemd-logind[436]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 30 22:29:11 rich-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 30 22:29:11 rich-VirtualBox systemd-logind[436]: New session c1 of user gdm.
+Oct 30 22:29:11 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 30 22:29:16 rich-VirtualBox gnome-keyring-daemon[744]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Oct 30 22:29:41 rich-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 30 22:29:57 rich-VirtualBox dbus-daemon[438]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 30 22:50:12 rich-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user rich by (uid=0)
+Oct 30 22:50:12 rich-VirtualBox systemd-logind[436]: New session 2 of user rich.
+Oct 30 22:50:12 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user rich by (uid=0)
+Oct 30 22:50:15 rich-VirtualBox gnome-keyring-daemon[2399]: The Secret Service was already initialized
+Oct 30 22:50:17 rich-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 30 22:50:41 rich-VirtualBox dbus-daemon[438]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 30 22:51:38 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 22:51:38 rich-VirtualBox pkexec[2995]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 22:53:26 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 30 22:53:26 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 22:54:11 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 22:54:38 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 22:54:38 rich-VirtualBox pkexec[3793]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 22:57:56 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 30 22:57:56 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 22:58:00 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 22:58:15 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt install apache2
+Oct 30 22:58:15 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 22:58:37 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 22:59:33 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt install php php-cgi libapache2-mod-php php-common php-pear php-mbstring
+Oct 30 22:59:33 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:00:07 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:00:38 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 23:00:38 rich-VirtualBox pkexec[17406]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 23:00:41 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt install nagios3 nagios-plugins-basic
+Oct 30 23:00:41 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:00:51 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:01:14 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install nagios3 nagios-plugins-basic
+Oct 30 23:01:14 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:02:29 rich-VirtualBox groupadd[21177]: group added to /etc/group: name=postfix, GID=127
+Oct 30 23:02:29 rich-VirtualBox groupadd[21177]: group added to /etc/gshadow: name=postfix
+Oct 30 23:02:29 rich-VirtualBox groupadd[21177]: new group: name=postfix, GID=127
+Oct 30 23:02:29 rich-VirtualBox useradd[21183]: new user: name=postfix, UID=122, GID=127, home=/var/spool/postfix, shell=/usr/sbin/nologin
+Oct 30 23:02:29 rich-VirtualBox usermod[21189]: change user 'postfix' password
+Oct 30 23:02:29 rich-VirtualBox chage[21194]: changed password expiry for postfix
+Oct 30 23:02:30 rich-VirtualBox groupadd[21239]: group added to /etc/group: name=postdrop, GID=128
+Oct 30 23:02:30 rich-VirtualBox groupadd[21239]: group added to /etc/gshadow: name=postdrop
+Oct 30 23:02:30 rich-VirtualBox groupadd[21239]: new group: name=postdrop, GID=128
+Oct 30 23:02:45 rich-VirtualBox groupadd[22744]: group added to /etc/group: name=nagios, GID=129
+Oct 30 23:02:45 rich-VirtualBox groupadd[22744]: group added to /etc/gshadow: name=nagios
+Oct 30 23:02:45 rich-VirtualBox groupadd[22744]: new group: name=nagios, GID=129
+Oct 30 23:02:45 rich-VirtualBox useradd[22748]: new user: name=nagios, UID=123, GID=129, home=/var/lib/nagios, shell=/usr/sbin/nologin
+Oct 30 23:02:45 rich-VirtualBox chage[22754]: changed password expiry for nagios
+Oct 30 23:02:58 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:03:38 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 30 23:03:38 rich-VirtualBox pkexec[23173]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 30 23:05:46 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/nagios3/nagios.cfg
+Oct 30 23:05:46 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:06:55 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:07:41 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/nagios3/apach2.conf
+Oct 30 23:07:41 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:07:49 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:08:01 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/nagios3/apache2.conf
+Oct 30 23:08:01 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:08:56 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:09:01 rich-VirtualBox CRON[23249]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 23:09:01 rich-VirtualBox CRON[23249]: pam_unix(cron:session): session closed for user root
+Oct 30 23:09:19 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/chgrp -R www-data /var/lib/nagios3
+Oct 30 23:09:19 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:09:19 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:09:36 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl restart nagios3.service
+Oct 30 23:09:36 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:09:36 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:09:52 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Oct 30 23:09:52 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 30 23:09:52 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 30 23:17:01 rich-VirtualBox CRON[23560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 23:17:01 rich-VirtualBox CRON[23560]: pam_unix(cron:session): session closed for user root
+Oct 31 14:42:19 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install mysql-server mysql-client
+Oct 31 14:42:19 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:42:53 rich-VirtualBox groupadd[24345]: group added to /etc/group: name=mysql, GID=130
+Oct 31 14:42:53 rich-VirtualBox groupadd[24345]: group added to /etc/gshadow: name=mysql
+Oct 31 14:42:53 rich-VirtualBox groupadd[24345]: new group: name=mysql, GID=130
+Oct 31 14:42:54 rich-VirtualBox useradd[24351]: new user: name=mysql, UID=124, GID=130, home=/nonexistent, shell=/bin/false
+Oct 31 14:42:54 rich-VirtualBox chage[24357]: changed password expiry for mysql
+Oct 31 14:42:54 rich-VirtualBox chfn[24361]: changed user 'mysql' information
+Oct 31 14:43:50 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:43:54 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 14:43:54 rich-VirtualBox pkexec[25973]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 14:44:28 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/apache2/mods-enable/dir.conf
+Oct 31 14:44:28 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:44:50 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:45:00 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt install apache2
+Oct 31 14:45:00 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:45:01 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:45:23 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/apache2/mods-enabled/dir.conf
+Oct 31 14:45:23 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:46:56 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/apache2/mods-enabled/dir.conf
+Oct 31 14:46:56 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:47:06 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:47:37 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Oct 31 14:47:37 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:50:47 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:50:49 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Oct 31 14:50:49 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:52:40 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Oct 31 14:52:40 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:52:40 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:53:30 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install php php-cgi libapache2-mod-php php-common php-pear php-mbstring
+Oct 31 14:53:30 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:53:31 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:53:48 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/sbin/a2enconf php7.2-cgi
+Oct 31 14:53:48 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:53:48 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:54:13 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl reload apache2.service
+Oct 31 14:54:13 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:54:13 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:54:28 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install phpmyadmin php-gettext
+Oct 31 14:54:28 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:54:40 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:55:30 rich-VirtualBox PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+Oct 31 14:55:34 rich-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:rich to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.99 [/usr/bin/gnome-software --gapplication-service] (owned by unix-user:rich)
+Oct 31 14:55:34 rich-VirtualBox PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+Oct 31 14:55:48 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install phpmyadmin php-gettext
+Oct 31 14:55:48 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:55:54 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 14:55:54 rich-VirtualBox pkexec[26301]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 14:56:33 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:57:22 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Oct 31 14:57:23 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 14:57:29 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 14:58:55 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 14:58:55 rich-VirtualBox pkexec[29853]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 15:03:13 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 15:03:13 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 15:09:01 rich-VirtualBox CRON[29980]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 15:09:03 rich-VirtualBox CRON[29980]: pam_unix(cron:session): session closed for user root
+Oct 31 15:12:59 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 15:12:59 rich-VirtualBox sudo: message repeated 2 times: [ pam_unix(sudo:session): session closed for user root]
+Oct 31 15:17:01 rich-VirtualBox CRON[30173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 15:17:01 rich-VirtualBox CRON[30173]: pam_unix(cron:session): session closed for user root
+Oct 31 15:39:01 rich-VirtualBox CRON[30592]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 15:39:01 rich-VirtualBox CRON[30592]: pam_unix(cron:session): session closed for user root
+Oct 31 17:31:23 rich-VirtualBox CRON[30911]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 17:31:23 rich-VirtualBox CRON[30911]: pam_unix(cron:session): session closed for user root
+Oct 31 17:39:01 rich-VirtualBox CRON[31193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 17:39:01 rich-VirtualBox CRON[31193]: pam_unix(cron:session): session closed for user root
+Oct 31 17:41:45 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 17:41:45 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 17:42:34 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 17:42:56 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl start apache2.service
+Oct 31 17:42:56 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 17:42:56 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 17:43:19 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl start mysql.service
+Oct 31 17:43:19 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 17:43:19 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 17:52:12 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql_secure_installation
+Oct 31 17:52:12 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:00:34 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:02:14 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 18:02:14 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:02:18 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:02:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql -u root -p
+Oct 31 18:02:29 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:09:01 rich-VirtualBox CRON[31698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 18:09:01 rich-VirtualBox CRON[31698]: pam_unix(cron:session): session closed for user root
+Oct 31 18:17:01 rich-VirtualBox CRON[31874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 18:17:02 rich-VirtualBox CRON[31874]: pam_unix(cron:session): session closed for user root
+Oct 31 18:18:20 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:20:28 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/mv drupal-8.3.5/autoload.php drupal-8.3.5/composer.json drupal-8.3.5/composer.lock drupal-8.3.5/core drupal-8.3.5/example.gitignore drupal-8.3.5/index.php drupal-8.3.5/LICENSE.txt drupal-8.3.5/modules drupal-8.3.5/profiles drupal-8.3.5/README.txt drupal-8.3.5/robots.txt drupal-8.3.5/sites drupal-8.3.5/themes drupal-8.3.5/update.php drupal-8.3.5/vendor drupal-8.3.5/web.config /var/www/html
+Oct 31 18:20:28 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:20:28 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:27:21 rich-VirtualBox gnome-keyring-daemon[2399]: couldn't initialize slot with master password: The password or PIN is incorrect
+Oct 31 18:27:22 rich-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Oct 31 18:30:11 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/rm /var/www/html/index.html
+Oct 31 18:30:11 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:30:11 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:31:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod -R 755 /var/www/html/autoload.php /var/www/html/composer.json /var/www/html/composer.lock /var/www/html/core /var/www/html/example.gitignore /var/www/html/index.php /var/www/html/LICENSE.txt /var/www/html/modules /var/www/html/profiles /var/www/html/README.txt /var/www/html/robots.txt /var/www/html/sites /var/www/html/themes /var/www/html/update.php /var/www/html/vendor /var/www/html/web.config
+Oct 31 18:31:30 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:31:30 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:31:54 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chown -R www-data:www-data /var/www/html/autoload.php /var/www/html/composer.json /var/www/html/composer.lock /var/www/html/core /var/www/html/example.gitignore /var/www/html/index.php /var/www/html/LICENSE.txt /var/www/html/modules /var/www/html/profiles /var/www/html/README.txt /var/www/html/robots.txt /var/www/html/sites /var/www/html/themes /var/www/html/update.php /var/www/html/vendor /var/www/html/web.config
+Oct 31 18:31:54 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:31:54 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:32:31 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Oct 31 18:32:31 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:32:31 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:32:52 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod env
+Oct 31 18:32:52 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:32:52 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:32:59 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod dir
+Oct 31 18:32:59 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:32:59 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:33:06 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod mime
+Oct 31 18:33:06 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:33:06 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:33:27 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Oct 31 18:33:27 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:36:48 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:51:49 rich-VirtualBox systemd-logind[531]: New seat seat0.
+Oct 31 18:51:49 rich-VirtualBox systemd-logind[531]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 31 18:51:49 rich-VirtualBox systemd-logind[531]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 31 18:51:49 rich-VirtualBox systemd-logind[531]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 31 18:52:08 rich-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Oct 31 18:52:08 rich-VirtualBox systemd-logind[531]: New session c1 of user gdm.
+Oct 31 18:52:08 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Oct 31 18:52:48 rich-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 31 18:52:57 rich-VirtualBox dbus-daemon[563]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 31 18:53:15 rich-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user rich by (uid=0)
+Oct 31 18:53:15 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user rich by (uid=0)
+Oct 31 18:53:15 rich-VirtualBox systemd-logind[531]: New session 2 of user rich.
+Oct 31 18:53:22 rich-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 31 18:53:44 rich-VirtualBox dbus-daemon[563]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 31 18:53:57 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 18:53:57 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:54:09 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:54:32 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 18:54:32 rich-VirtualBox pkexec[2100]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 18:57:30 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 18:57:30 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:57:32 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 18:57:32 rich-VirtualBox pkexec[12034]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 18:59:40 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 18:59:58 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/su -
+Oct 31 18:59:58 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 18:59:58 rich-VirtualBox su[21682]: Successful su for root by root
+Oct 31 18:59:58 rich-VirtualBox su[21682]: + /dev/pts/0 root:root
+Oct 31 18:59:58 rich-VirtualBox su[21682]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 31 18:59:58 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 31 18:59:58 rich-VirtualBox systemd-logind[531]: New session 3 of user root.
+Oct 31 19:00:30 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:00:30 rich-VirtualBox pkexec[22097]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:03:29 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:03:29 rich-VirtualBox pkexec[30997]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:06:28 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:06:28 rich-VirtualBox pkexec[9512]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:09:01 rich-VirtualBox CRON[9553]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 19:09:01 rich-VirtualBox CRON[9553]: pam_unix(cron:session): session closed for user root
+Oct 31 19:17:01 rich-VirtualBox CRON[9721]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 19:17:02 rich-VirtualBox CRON[9721]: pam_unix(cron:session): session closed for user root
+Oct 31 19:28:45 rich-VirtualBox su[21682]: pam_unix(su:session): session closed for user root
+Oct 31 19:28:45 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:28:45 rich-VirtualBox systemd-logind[531]: Removed session 3.
+Oct 31 19:30:32 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install tasksel
+Oct 31 19:30:32 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:30:41 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:30:53 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/tasksel install lamp-server
+Oct 31 19:30:53 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:30:57 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:33:28 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:33:28 rich-VirtualBox pkexec[10442]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:35:12 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/mkdir /var/www/drupal
+Oct 31 19:35:12 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:35:12 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:36:50 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/mv drupal-8.0-alpha6/composer.json drupal-8.0-alpha6/composer.lock drupal-8.0-alpha6/core drupal-8.0-alpha6/example.gitignore drupal-8.0-alpha6/index.php drupal-8.0-alpha6/LICENSE.txt drupal-8.0-alpha6/modules drupal-8.0-alpha6/profiles drupal-8.0-alpha6/README.txt drupal-8.0-alpha6/robots.txt drupal-8.0-alpha6/sites drupal-8.0-alpha6/themes drupal-8.0-alpha6/web.config drupal-8.0-alpha6/.htaccess /var/www/drupal
+Oct 31 19:36:50 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:36:50 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:38:42 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/mkdir /var/www/drupal/sites/default/files
+Oct 31 19:38:42 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:38:42 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:39:01 rich-VirtualBox CRON[10505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 19:39:01 rich-VirtualBox CRON[10505]: pam_unix(cron:session): session closed for user root
+Oct 31 19:39:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/chown www-data:www-data /var/www/drupal/sites/default/files
+Oct 31 19:39:29 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:39:29 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:40:37 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/cp /var/www/drupal/sites/default/default.settings.php /var/www/drupal/sites/default/settings.php
+Oct 31 19:40:37 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:40:37 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:41:57 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/chown www-data:www-data /var/www/drupal/sites/default/settings.php
+Oct 31 19:41:57 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:41:57 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:42:43 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install php5.gd
+Oct 31 19:42:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:42:44 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:44:41 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 19:44:41 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:57:28 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 19:57:28 rich-VirtualBox pkexec[10753]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 19:59:19 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 19:59:30 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Oct 31 19:59:30 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 19:59:30 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:00:18 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/sbin/service apache2 start
+Oct 31 20:00:18 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:00:20 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:02:14 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Oct 31 20:02:14 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:02:14 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:09:01 rich-VirtualBox CRON[11177]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 20:09:01 rich-VirtualBox CRON[11177]: pam_unix(cron:session): session closed for user root
+Oct 31 20:15:36 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 20:15:36 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:17:01 rich-VirtualBox CRON[11309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 20:17:01 rich-VirtualBox CRON[11309]: pam_unix(cron:session): session closed for user root
+Oct 31 20:22:27 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:23:54 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/su -
+Oct 31 20:23:54 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:23:54 rich-VirtualBox su[11397]: Successful su for root by root
+Oct 31 20:23:54 rich-VirtualBox su[11397]: + /dev/pts/0 root:root
+Oct 31 20:23:54 rich-VirtualBox su[11397]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 31 20:23:54 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 31 20:23:54 rich-VirtualBox systemd-logind[531]: New session 3 of user root.
+Oct 31 20:29:00 rich-VirtualBox su[11397]: pam_unix(su:session): session closed for user root
+Oct 31 20:29:00 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:29:00 rich-VirtualBox systemd-logind[531]: Removed session 3.
+Oct 31 20:29:00 rich-VirtualBox systemd: pam_unix(systemd-user:session): session closed for user root
+Oct 31 20:30:37 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl stop apache2.service
+Oct 31 20:30:37 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:30:37 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:30:51 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl start apache2.service
+Oct 31 20:30:51 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:30:51 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:31:04 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl enable apache2.service
+Oct 31 20:31:04 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:31:08 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:31:59 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql_secure_installation
+Oct 31 20:31:59 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:33:11 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:33:24 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl restart mysql.service
+Oct 31 20:33:24 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:33:26 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:33:45 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install software-properties-common
+Oct 31 20:33:45 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:33:48 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:34:10 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install software-properties-common
+Oct 31 20:34:10 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:34:28 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:34:33 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 31 20:34:33 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:34:37 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:36:28 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 20:36:28 rich-VirtualBox pkexec[12686]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 20:37:58 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt install php7.1 libapache2-mod-php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-gd php7.1-xml php7.1-intl php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-ldap php7.1-zip php7.1-curl
+Oct 31 20:37:58 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:38:00 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:38:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt install php7.1 libapache2-mod-php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-gd php7.1-xml php7.1-intl php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-ldap php7.1-zip php7.1-curl
+Oct 31 20:38:29 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:38:31 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:39:01 rich-VirtualBox CRON[12720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 20:39:01 rich-VirtualBox CRON[12720]: pam_unix(cron:session): session closed for user root
+Oct 31 20:39:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:ondrej/php
+Oct 31 20:39:29 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:39:51 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:41:25 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt install php7.1 libapache2-mod-php7.1 libapache2-mod-php7.1 php7.1-common php7.1-mbstring php7.1-xmlrpc php7.1-soap php7.1-gd php7.1-xml php7.1-intl php7.1-mysql php7.1-cli php7.1-mcrypt php7.1-ldap php7.1-zip php7.1-curl
+Oct 31 20:41:25 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:42:25 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:42:28 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 20:42:28 rich-VirtualBox pkexec[25321]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 20:43:44 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/php/7.1/apache2/php.ini
+Oct 31 20:43:44 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 20:56:59 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 20:57:22 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Oct 31 20:57:22 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:04:47 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:05:44 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/mv drupal-8.4.2 /var/www/html/drupal
+Oct 31 21:05:44 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:05:44 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:06:13 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chown -R www-data:www-data /var/www/html/drupal/
+Oct 31 21:06:13 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:06:13 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:06:35 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/chmod -R 755 /var/www/html/drupal/
+Oct 31 21:06:35 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:06:35 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:06:54 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:06:54 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:08:45 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:08:57 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2ensite drupal.conf
+Oct 31 21:08:57 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:08:57 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:09:01 rich-VirtualBox CRON[25545]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 21:09:01 rich-VirtualBox CRON[25545]: pam_unix(cron:session): session closed for user root
+Oct 31 21:09:11 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Oct 31 21:09:11 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:09:11 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:09:19 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod env
+Oct 31 21:09:19 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:09:19 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:09:25 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod dir
+Oct 31 21:09:25 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:09:25 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:09:33 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod mime
+Oct 31 21:09:33 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:09:33 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:09:50 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Oct 31 21:09:50 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:09:50 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:10:15 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt-get install python-certbot-apache
+Oct 31 21:10:15 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:10:19 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:11:00 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:certbot/certbot
+Oct 31 21:11:00 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:11:14 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:11:59 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 31 21:11:59 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:12:03 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:12:17 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt-get install python-certbot-apache
+Oct 31 21:12:17 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:12:35 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 21:12:36 rich-VirtualBox pkexec[26852]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 21:12:51 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:12:58 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/certbot --apache -m admin@example.com -d example.com -d www.example.com
+Oct 31 21:12:58 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:14:20 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:15:34 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 21:15:34 rich-VirtualBox pkexec[27710]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 21:15:43 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:15:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:17:01 rich-VirtualBox CRON[27729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 21:17:01 rich-VirtualBox CRON[27729]: pam_unix(cron:session): session closed for user root
+Oct 31 21:17:13 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:17:45 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:17:45 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:18:06 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:19:06 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/certbot --apache -m ra498@njit.edu -d KumasiH.com -d www.KumasiH.com
+Oct 31 21:19:06 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:19:16 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:20:10 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:20:10 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:20:43 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:21:03 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/certbot --apache -m ra498@njit.edu -d example.com -d www.example.com
+Oct 31 21:21:03 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:21:12 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:24:15 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:24:15 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:26:30 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:26:43 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2ensite drupal.conf
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:26:43 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod rewrite
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:26:43 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod env
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:26:43 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod dir
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:26:43 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:26:46 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/a2enmod mime
+Oct 31 21:26:46 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:26:46 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:28:03 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Oct 31 21:28:03 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:28:04 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:29:24 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:29:24 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:29:37 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:30:35 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/certbot --apache -m ra498@njit.edu -d kumasiHospital.com -d www.kumasiHospital.com
+Oct 31 21:30:35 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:30:45 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:33:46 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/systemctl restart apache2.service
+Oct 31 21:33:46 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:33:46 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:36:17 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt-get install python-certbot-apache
+Oct 31 21:36:17 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:36:19 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:39:01 rich-VirtualBox CRON[28164]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 21:39:01 rich-VirtualBox CRON[28164]: pam_unix(cron:session): session closed for user root
+Oct 31 21:39:15 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/add-apt-repository ppa:certbot/certbot
+Oct 31 21:39:15 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:39:53 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:39:53 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 31 21:39:53 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:39:56 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:40:14 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/apt-get install python-certbot-apache
+Oct 31 21:40:14 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:40:15 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:41:04 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/certbot --apache -m ra498@njit.edu -d KumasiHospital.com -d www.kumasihospital.com
+Oct 31 21:41:04 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:41:14 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:43:03 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 21:43:03 rich-VirtualBox pkexec[29205]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 21:45:30 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:45:30 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:46:50 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:47:16 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/certbot --apache -m richoa1@hotmail.com -d example.com -d www.example.com
+Oct 31 21:47:16 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:47:25 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:49:25 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-available/drupal.conf
+Oct 31 21:49:25 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:50:22 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:53:10 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install lamp-server^
+Oct 31 21:53:10 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:53:13 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:53:46 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install phpmyadmin
+Oct 31 21:53:46 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:53:47 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 21:57:40 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/mv drupal-7.15 /var/www
+Oct 31 21:57:40 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 21:57:40 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:00:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/cp sites/default/default.settings.php
+Oct 31 22:00:29 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:00:29 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:01:18 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/cp sites/default/default.settings.php sites/default/settings.php
+Oct 31 22:01:18 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:01:18 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:02:08 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/chmod a+w sites/default/settings.php
+Oct 31 22:02:08 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:02:08 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:02:44 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/chmod a+w sites/default/
+Oct 31 22:02:44 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:02:44 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:03:27 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/usr/bin/mysqladmin -u root -p create drupal7
+Oct 31 22:03:27 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:03:31 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:06:59 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct 31 22:06:59 rich-VirtualBox pkexec[29544]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct 31 22:09:02 rich-VirtualBox CRON[29577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 31 22:09:02 rich-VirtualBox CRON[29577]: pam_unix(cron:session): session closed for user root
+Oct 31 22:12:55 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/su -
+Oct 31 22:12:55 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:12:55 rich-VirtualBox su[29695]: Successful su for root by root
+Oct 31 22:12:55 rich-VirtualBox su[29695]: + /dev/pts/0 root:root
+Oct 31 22:12:55 rich-VirtualBox su[29695]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 31 22:12:55 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 31 22:12:55 rich-VirtualBox systemd-logind[531]: New session 3 of user root.
+Oct 31 22:12:59 rich-VirtualBox su[29695]: pam_unix(su:session): session closed for user root
+Oct 31 22:12:59 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:12:59 rich-VirtualBox systemd-logind[531]: Removed session 3.
+Oct 31 22:12:59 rich-VirtualBox systemd: pam_unix(systemd-user:session): session closed for user root
+Oct 31 22:13:04 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/su -
+Oct 31 22:13:04 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:13:04 rich-VirtualBox su[29726]: Successful su for root by root
+Oct 31 22:13:04 rich-VirtualBox su[29726]: + /dev/pts/0 root:root
+Oct 31 22:13:04 rich-VirtualBox su[29726]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 31 22:13:04 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 31 22:13:04 rich-VirtualBox systemd-logind[531]: New session 3 of user root.
+Oct 31 22:14:40 rich-VirtualBox su[29726]: pam_unix(su:session): session closed for user root
+Oct 31 22:14:40 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:14:40 rich-VirtualBox systemd-logind[531]: Removed session 3.
+Oct 31 22:15:05 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/su -
+Oct 31 22:15:05 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 31 22:15:05 rich-VirtualBox su[29770]: Successful su for root by root
+Oct 31 22:15:05 rich-VirtualBox su[29770]: + /dev/pts/0 root:root
+Oct 31 22:15:05 rich-VirtualBox su[29770]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 31 22:15:05 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 31 22:15:06 rich-VirtualBox systemd-logind[531]: New session 3 of user root.
+Oct 31 22:15:34 rich-VirtualBox su[29770]: pam_unix(su:session): session closed for user root
+Oct 31 22:15:34 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Oct 31 22:15:34 rich-VirtualBox systemd-logind[531]: Removed session 3.
+Oct 31 22:15:34 rich-VirtualBox systemd: pam_unix(systemd-user:session): session closed for user root
+Nov  1 01:38:36 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install lamp-server^ -y
+Nov  1 01:38:36 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:38:38 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:39:01 rich-VirtualBox CRON[30236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 01:39:01 rich-VirtualBox CRON[30236]: pam_unix(cron:session): session closed for user root
+Nov  1 01:39:05 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install phpmyadmin -y
+Nov  1 01:39:05 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:39:06 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:41:46 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/wget http://drupal.org/files/projects/drupal-7.15.tar.gz
+Nov  1 01:41:46 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:41:46 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:43:50 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/wget http://drupal.org/files/projects/drupal-7.15.tar.gz
+Nov  1 01:43:50 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:43:51 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:45:43 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/mv drupal-7.15 /var/www
+Nov  1 01:45:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:45:43 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:49:58 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/bin/chmod a+w sites/default/settings.php
+Nov  1 01:49:58 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:49:58 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:51:14 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/var/www/drupal-7.15 ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 01:51:14 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:51:23 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:52:07 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 01:52:08 rich-VirtualBox pkexec[30862]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 01:57:21 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl stop apache2.service
+Nov  1 01:57:21 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:57:22 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 01:57:34 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl start apache2.service
+Nov  1 01:57:34 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 01:57:34 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:04:26 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/sbin/service apache2 restart
+Nov  1 02:04:26 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:04:26 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:05:35 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/sbin/a2enconf phpmyadmin.conf
+Nov  1 02:05:35 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:05:35 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:06:12 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/sbin/a2enconf /etc/apache2/conf-available/phpmyadmin.conf
+Nov  1 02:06:12 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:06:12 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:06:39 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install --retinstall phpmyadmin
+Nov  1 02:06:39 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:06:39 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:06:51 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install --reinstall phpmyadmin
+Nov  1 02:06:51 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:07:06 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:07:07 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 02:07:07 rich-VirtualBox pkexec[31830]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 02:07:59 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/gedit /etc/apache2/apache2.conf
+Nov  1 02:07:59 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:09:01 rich-VirtualBox CRON[31874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 02:09:01 rich-VirtualBox CRON[31874]: pam_unix(cron:session): session closed for user root
+Nov  1 02:09:47 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:10:09 rich-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-process:31993:1443859 (system bus name :1.235 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 02:10:19 rich-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:rich to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.236 [/bin/systemctl --no-pager restart apache2.service] (owned by unix-user:rich)
+Nov  1 02:10:19 rich-VirtualBox polkitd(authority=local): Unregistered Authentication Agent for unix-process:31993:1443859 (system bus name :1.235, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  1 02:14:34 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 02:14:34 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:17:01 rich-VirtualBox CRON[32131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 02:17:01 rich-VirtualBox CRON[32131]: pam_unix(cron:session): session closed for user root
+Nov  1 02:22:31 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:23:12 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/gedit /etc/apache2/apache2.conf
+Nov  1 02:23:12 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:29:30 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:33:24 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql --user=root mysql
+Nov  1 02:33:24 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:38:07 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:38:23 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql --user=root mysql
+Nov  1 02:38:23 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:39:01 rich-VirtualBox CRON[32365]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 02:39:01 rich-VirtualBox CRON[32365]: pam_unix(cron:session): session closed for user root
+Nov  1 02:42:29 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:43:09 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql --user=root mysql
+Nov  1 02:43:09 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:45:35 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:45:59 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/gedit /etc/apache2/apache2.conf
+Nov  1 02:45:59 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:46:53 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:47:54 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/gedit /etc/dbconfig-common/phpmyadmin.conf
+Nov  1 02:47:54 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:48:44 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:49:54 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 02:49:54 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:53:08 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysqladmin -u test p- create drupal7
+Nov  1 02:53:08 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:53:08 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:53:16 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/su -
+Nov  1 02:53:16 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:53:16 rich-VirtualBox su[32659]: Successful su for root by root
+Nov  1 02:53:16 rich-VirtualBox su[32659]: + /dev/pts/1 root:root
+Nov  1 02:53:16 rich-VirtualBox su[32659]: pam_unix(su:session): session opened for user root by (uid=0)
+Nov  1 02:53:16 rich-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov  1 02:53:16 rich-VirtualBox systemd-logind[531]: New session 3 of user root.
+Nov  1 02:55:52 rich-VirtualBox su[32659]: pam_unix(su:session): session closed for user root
+Nov  1 02:55:52 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:55:52 rich-VirtualBox systemd-logind[531]: Removed session 3.
+Nov  1 02:55:52 rich-VirtualBox systemd: pam_unix(systemd-user:session): session closed for user root
+Nov  1 02:56:05 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 02:56:05 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 02:58:04 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 02:58:13 rich-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-process:32723:1732193 (system bus name :1.245 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 02:58:16 rich-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:rich to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.246 [systemctl restart mysql.service] (owned by unix-user:rich)
+Nov  1 02:58:21 rich-VirtualBox polkitd(authority=local): Unregistered Authentication Agent for unix-process:32723:1732193 (system bus name :1.245, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  1 02:59:48 rich-VirtualBox sudo:     rich : TTY=pts/1 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 02:59:48 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 03:06:01 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 03:07:31 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/gedit /etc/mysql/mariadb.conf.d/50-server.cnf
+Nov  1 03:07:31 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 03:08:00 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 03:08:41 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/gedit /etc/mysql/mysql.conf.d/mysqld.cnf
+Nov  1 03:08:41 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 03:09:01 rich-VirtualBox CRON[426]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 03:09:01 rich-VirtualBox CRON[426]: pam_unix(cron:session): session closed for user root
+Nov  1 03:09:05 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 03:09:23 rich-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-process:538:1799246 (system bus name :1.252 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  1 03:09:27 rich-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:rich to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.253 [systemctl restart mysql.service] (owned by unix-user:rich)
+Nov  1 03:09:31 rich-VirtualBox polkitd(authority=local): Unregistered Authentication Agent for unix-process:538:1799246 (system bus name :1.252, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  1 03:17:01 rich-VirtualBox CRON[692]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 03:17:01 rich-VirtualBox CRON[692]: pam_unix(cron:session): session closed for user root
+Nov  1 10:27:45 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 10:30:59 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 10:30:59 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 10:36:59 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 10:37:35 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 10:37:35 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 10:37:36 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 10:39:01 rich-VirtualBox CRON[1109]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 10:39:01 rich-VirtualBox CRON[1109]: pam_unix(cron:session): session closed for user root
+Nov  1 10:39:13 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/mysql
+Nov  1 10:39:13 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:02:13 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 11:02:13 rich-VirtualBox pkexec[1899]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 11:07:32 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:09:01 rich-VirtualBox CRON[2002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 11:09:01 rich-VirtualBox CRON[2002]: pam_unix(cron:session): session closed for user root
+Nov  1 11:17:01 rich-VirtualBox CRON[2185]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 11:17:01 rich-VirtualBox CRON[2185]: pam_unix(cron:session): session closed for user root
+Nov  1 11:24:12 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 11:24:12 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:32:02 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:32:28 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 11:32:28 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:32:29 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:32:54 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 11:32:54 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:33:05 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:33:07 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 11:33:07 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:33:07 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:33:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 11:33:29 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:37:55 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:37:59 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 11:37:59 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:37:59 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:38:08 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/nano /etc/apache2/sites-enabled/000-default.conf
+Nov  1 11:38:08 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:38:47 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:38:50 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/bin/systemctl restart apache2
+Nov  1 11:38:50 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 11:38:50 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 11:39:01 rich-VirtualBox CRON[2475]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 11:39:01 rich-VirtualBox CRON[2475]: pam_unix(cron:session): session closed for user root
+Nov  1 16:17:01 rich-VirtualBox CRON[3631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:17:01 rich-VirtualBox CRON[3631]: pam_unix(cron:session): session closed for user root
+Nov  1 16:17:07 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 16:17:07 rich-VirtualBox pkexec[3637]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 16:39:01 rich-VirtualBox CRON[3974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 16:39:02 rich-VirtualBox CRON[3974]: pam_unix(cron:session): session closed for user root
+Nov  1 16:46:52 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Nov  1 16:46:52 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 16:47:13 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 16:49:10 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 16:49:10 rich-VirtualBox pkexec[4992]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 17:51:47 rich-VirtualBox CRON[5335]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 17:51:47 rich-VirtualBox CRON[5335]: pam_unix(cron:session): session closed for user root
+Nov  1 17:52:18 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/usr/sbin/service apache2 status
+Nov  1 17:52:18 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:52:33 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:52:48 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/usr/sbin/service apache2 status
+Nov  1 17:52:48 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:52:49 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:53:00 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/usr/sbin/service mysql
+Nov  1 17:53:00 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:53:00 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 17:53:07 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/www/drupal/core ; USER=root ; COMMAND=/usr/sbin/service mysql status
+Nov  1 17:53:07 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 17:53:09 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 20:34:15 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich ; USER=root ; COMMAND=/usr/bin/apt-get install gitk
+Nov  1 20:34:15 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 20:34:40 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 20:35:02 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 20:35:02 rich-VirtualBox pkexec[7477]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 20:39:01 rich-VirtualBox CRON[7530]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 20:39:01 rich-VirtualBox CRON[7530]: pam_unix(cron:session): session closed for user root
+Nov  1 20:43:44 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/home/rich/git/THEBoss ; USER=root ; COMMAND=/usr/bin/apt-get install vim
+Nov  1 20:43:44 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 20:44:01 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 20:44:02 rich-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov  1 20:44:02 rich-VirtualBox pkexec[8422]: rich: Executing command [USER=root] [TTY=unknown] [CWD=/home/rich] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov  1 21:09:01 rich-VirtualBox CRON[8789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 21:09:01 rich-VirtualBox CRON[8789]: pam_unix(cron:session): session closed for user root
+Nov  1 21:17:01 rich-VirtualBox CRON[8991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 21:17:01 rich-VirtualBox CRON[8991]: pam_unix(cron:session): session closed for user root
+Nov  1 21:29:27 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git add
+Nov  1 21:29:27 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:29:27 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:36:11 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git add .
+Nov  1 21:36:11 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:36:11 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:39:01 rich-VirtualBox CRON[9374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  1 21:39:01 rich-VirtualBox CRON[9374]: pam_unix(cron:session): session closed for user root
+Nov  1 21:45:25 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get get
+Nov  1 21:45:25 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:45:25 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:49:33 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get install gitk
+Nov  1 21:49:33 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:49:34 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:51:29 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt install get
+Nov  1 21:51:29 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:51:30 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:52:07 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git inti
+Nov  1 21:52:07 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:52:07 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:52:22 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git init
+Nov  1 21:52:22 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:52:22 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:53:17 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git add .
+Nov  1 21:53:17 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:53:20 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:54:43 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/Richoa4/MIDTERM1.git
+Nov  1 21:54:43 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:54:44 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:55:10 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git init
+Nov  1 21:55:10 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:55:10 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:55:28 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/Richoa4/MIDTERM1.git
+Nov  1 21:55:28 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:55:29 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:56:50 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git remote add orgin https://github.com/Richoa4/MIDTERM1.git
+Nov  1 21:56:50 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:56:50 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:57:21 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git push -u origin master
+Nov  1 21:57:21 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:57:21 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:57:46 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git add .
+Nov  1 21:57:46 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov  1 21:57:46 rich-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Nov  1 21:58:20 rich-VirtualBox sudo:     rich : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/git commit -am first commit
+Nov  1 21:58:20 rich-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
